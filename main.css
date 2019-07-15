@@ -1,0 +1,38 @@
+@import url(href=https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap);
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+
+.centerDiv {
+    text-align: center;
+    color: black;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.centerText {
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.plx1{
+    background-image: url(BG.jpg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
+.plx2{
+    background-image: url(BG2.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
