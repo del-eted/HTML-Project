@@ -17,11 +17,10 @@
     flex-wrap: wrap ;
 }
 .quote { /*Generic white border box*/
-    background-color: rgb(179, 200, 231) ;
+    background-color: rgba(199, 199, 199, 0.61) ;
     width: 65%;
     margin: 5% auto;
     display: center ;
-    opacity: 0.65;
     flex-wrap: wrap ;
 }
 .boxBlack { /*Generic black border box*/
@@ -118,6 +117,42 @@
     padding-left: calc(100vw - 100%);
     padding-right: calc(100vw - 100%)
 }
+.plx5{ /*Parallax scroll effect gackground 4 (mountains)*/
+    background-image: url(BG7.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
+.plxb1{ /*Parallax scroll effect gackground 1 (beach)*/
+    background-image: url(bgb1.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
+.plxb2{ /*Parallax scroll effect gackground 2 (beach)*/
+    background-image: url(bgb2.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
 .plx1L{ /*parralax effect for landing page 1 (front page)*/
     background-image: url(BG.jpg);
     height: 110vh;
@@ -143,20 +178,24 @@
     padding-right: calc(100vw - 100%)
 }
 #header { /*Header*/
-    background-image: url(headerbg.jpg);
+    background-image: url(headerBG.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 10% 5%;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 50px;
     font-weight: bold; 
     position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
     top: 0; 
-    width: 100%;
+    width: 80%;
     transition: 0.8s;
   }
-  .button {
+.button {
       background-color: inherit;
       text-align: center;
       color: inherit;
