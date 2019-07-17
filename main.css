@@ -1,36 +1,96 @@
-@import url(href=https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap);
-/*font-family: 'Source Sans Pro', sans-serif;*/
+@import url(href=https://fonts.googleapis.com/css?family=Heebo:100&display=swap);
 
-
-.centerDiv {
-    text-align: center;
-    color: black;
-    font-family:'Source Sans Pro', sans-serif;
+.landBox { /*text box for the landing page*/
+    border: 10px solid black ;
+    width: 30%;
+    padding: 8%;
+    margin: 10% auto;
+    background-color: rgb(179, 200, 231) ;
+    opacity: 0.5;
+    display: center; 
+    flex-wrap: wrap;
 }
-.centerText {
-    text-align: center;
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+.boxWhite { /*Generic white border box*/
+    border: 5px solid #E9E9E9 ;
+    width: 80%;
+    margin: 5% auto;
+    display: center ;
+    flex-wrap: wrap ;
 }
-.plx1{
-    background-image: url(BG.jpg);
-    height: 350px;
+.boxBlack { /*Generic black border box*/
+    border: 5px solid#151515 ;
+    width: 80%;
+    margin: 5% auto;
+    display: center ;
+    flex-wrap: wrap ;
+}
+.textBlack { /*Generic black text format class*/
+    text-align: center;
+    color: #151515;
+    font-family: 'Heebo', sans-serif;
+    font-size: medium
+}
+.textBlackBig { /*Generic black text format class, large font*/
+    text-align: center;
+    color: #151515;
+    font-family: 'Heebo', sans-serif;
+    font-size: xx-large
+}
+.textWhite { /*Generic white text format class*/
+    text-align: center;
+    color: rgba(182, 198, 212, 0.788);
+    font-family: 'Heebo', sans-serif;
+    font-size: medium
+}
+.textWhiteBig { /*Generic white text format class*, large font*/
+    text-align: center;
+    color: rgba(182, 198, 212, 0.788);
+    font-family: 'Heebo', sans-serif;
+    font-size: xx-large
+}
+.plx1{ /*Parallax scroll effect gackground 1*/
+    background-image: url(BG2.jpg);
+    height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     margin-left: calc(100% - 100vw);
     margin-right: calc(100% - 100vw);
     padding-left: calc(100vw - 100%);
     padding-right: calc(100vw - 100%)
 }
-.plx2{
-    background-image: url(BG2.jpg);
-    height: 600px;
+.plx2{ /*Parallax scroll effect gackground 1*/
+    background-image: url(BG4.jpg);
+    height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
+.plx1L{
+    background-image: url(BG.jpg);
+    height: 110vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-left: calc(100% - 100vw);
+    margin-right: calc(100% - 100vw);
+    padding-left: calc(100vw - 100%);
+    padding-right: calc(100vw - 100%)
+}
+.plx2L{
+    background-image: url(BG3.jpg);
+    height: 110vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% fixed;
     margin-left: calc(100% - 100vw);
     margin-right: calc(100% - 100vw);
     padding-left: calc(100vw - 100%);
